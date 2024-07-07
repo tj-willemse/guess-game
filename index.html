@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game 1</title>
+  </head>
+  <body>
+    <header class="header container">
+      <button class="again__btn btn">Restart</button>
+      <h2 class="header__title">Welcome to Guess the number</h2>
+    </header>
+    <main>
+      <section class="hero container">
+        <h1 class="hero__title">Guess the number between 1 and 20 !</h1>
+        <div class="hero__number">?</div>
+      </section>
+      <section class="input container">
+        <div class="input__box">
+          <input type="number" class="guess" />
+          <button class="btn check">Check!</button>
+
+          <p class="message">Start guessing...</p>
+          <p class="label-score">💯 Score: <span class="score">20</span></p>
+          <p class="label-highscore">
+            🥇 Highscore: <span class="highscore">0</span>
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- <footer></footer> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

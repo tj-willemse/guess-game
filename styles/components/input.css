@@ -1,0 +1,188 @@
+.input__box {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.guess {
+  width: 10rem;
+  height: 2rem;
+  font-size: var(--size-base);
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+}
+
+.check {
+  font-size: var(--size-base);
+  margin-bottom: 10px;
+}
+
+.message {
+  font-size: var(--size-base);
+}
+
+.label-score {
+  font-size: var(--size-base);
+}
+.score {
+  font-size: var(--size-base);
+}
+
+.label-highscore {
+  font-size: var(--size-base);
+}
+.highscore {
+  font-size: var(--size-base);
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .check {
+    font-size: var(--size-lg);
+  }
+  .message {
+    font-size: var(--size-lg);
+  }
+
+  .label-score {
+    font-size: var(--size-lg);
+  }
+  .score {
+    font-size: var(--size-lg);
+  }
+
+  .label-highscore {
+    font-size: var(--size-lg);
+  }
+  .highscore {
+    font-size: var(--size-lg);
+  }
+  .guess {
+    font-size: var(--size-lg);
+    width: 12rem;
+    height: 2rem;
+  }
+}
+
+/* Sm */
+@media (min-width: 640px) {
+  .check {
+    font-size: var(--size-xl);
+  }
+  .message {
+    font-size: var(--size-xl);
+  }
+
+  .label-score {
+    font-size: var(--size-xl);
+  }
+  .score {
+    font-size: var(--size-xl);
+  }
+
+  .label-highscore {
+    font-size: var(--size-xl);
+  }
+  .highscore {
+    font-size: var(--size-xl);
+  }
+  .guess {
+    font-size: var(--size-xl);
+    width: 12rem;
+    height: 2rem;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .check {
+    font-size: var(--size-2xl);
+  }
+  .message {
+    font-size: var(--size-2xl);
+  }
+
+  .label-score {
+    font-size: var(--size-2xl);
+  }
+  .score {
+    font-size: var(--size-2xl);
+  }
+
+  .label-highscore {
+    font-size: var(--size-2xl);
+  }
+  .highscore {
+    font-size: var(--size-2xl);
+  }
+  .guess {
+    font-size: var(--size-2xl);
+    width: 14rem;
+    height: 2rem;
+  }
+}
+
+/* Lg */
+/* @media (min-width: 1024px) {
+  .check {
+    font-size: var(--size-2xl);
+  }
+  .message {
+    font-size: var(--size-2xl);
+  }
+
+  .label-score {
+    font-size: var(--size-2xl);
+  }
+  .score {
+    font-size: var(--size-2xl);
+  }
+
+  .label-highscore {
+    font-size: var(--size-2xl);
+  }
+  .highscore {
+    font-size: var(--size-2xl);
+  }
+  .guess {
+    font-size: var(--size-2xl);
+    width: 14rem;
+    height: 2rem;
+  }
+} */
+
+/* xL */
+@media (min-width: 1280px) {
+  .check {
+    font-size: var(--size-3xl);
+  }
+  .message {
+    font-size: var(--size-3xl);
+  }
+
+  .label-score {
+    font-size: var(--size-3xl);
+  }
+  .score {
+    font-size: var(--size-3xl);
+  }
+
+  .label-highscore {
+    font-size: var(--size-3xl);
+  }
+  .highscore {
+    font-size: var(--size-3xl);
+  }
+  .guess {
+    font-size: var(--size-3xl);
+    width: 16rem;
+    height: 2rem;
+  }
+}
+
+/* 2xL */
+/* @media (min-width: 1536px) {} */
